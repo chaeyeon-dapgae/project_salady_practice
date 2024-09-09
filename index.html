@@ -1,0 +1,1037 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salady</title>
+    <link rel="icon" href="img/salady_Logo.png" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+    <script src="salady_script.js"></script>
+    <link rel="stylesheet" href="salady_common.css" />
+    <link rel="stylesheet" href="salady_style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+  <body>
+    <div class="headerButton">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <div class="salady">
+      <!-- ########## Header ########## -->
+      <div class="hdrWrap">
+        <div class="heading">
+          <div class="logo">
+            <a href="#"><img src="img/salady_Logo.png" alt="샐러디 로고" /></a>
+          </div>
+          <ul class="lnb">
+            <li><a href="#vegetWrap">샐러디 채소</a></li>
+            <li><a href="#menuWrap">메뉴</a></li>
+            <li><a href="#msWrap">멤버십</a></li>
+            <li><a href="#faqWrap">FAQ</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- ########## Main ########## -->
+      <div class="mnWrap">
+        <main>
+          <h1>
+            <span>샐러디</span>는 <em>샐러드</em>도 맛있다!
+            <p>건강하게 즐기는 패스트 푸드</p>
+          </h1>
+        </main>
+      </div>
+      <!-- ########## Content_vegetable ########## -->
+      <div class="content vegetWrap" id="vegetWrap">
+        <div class="veget">
+          <header>
+            <h3>Premium Vegetables</h3>
+          </header>
+          <section class="top">
+            <div class="artGroup">
+              <article>
+                <img src="img/romaine.jpg" alt="로메인" />
+                <h4>로메인</h4>
+              </article>
+              <article>
+                <img src="img/frillice.jpg" alt="프릴아이스" />
+                <h4>프릴아이스</h4>
+              </article>
+              <article>
+                <img src="img/caipira.jpg" alt="카이피라" />
+                <h4>카이피라</h4>
+              </article>
+              <article>
+                <img src="img/radicchio.jpg" alt="라디치오" />
+                <h4>라디치오</h4>
+              </article>
+            </div>
+            <p>
+              샐러디에서 사용하는 채소에는 각종 영양성분이 풍부합니다.
+              <br />시중에 흔히 쓰이는 양상추와 비교했을 땐 아래 성분들의 함량이
+              특히 높습니다.
+            </p>
+          </section>
+          <section class="bottom">
+            <div class="artGroup">
+              <article>
+                <h4>총 식이섬유</h4>
+                <div class="image"></div>
+                <h5>2.5배</h5>
+                <ul>
+                  <li>유익균 생성</li>
+                  <li>체중감량</li>
+                </ul>
+              </article>
+              <article>
+                <h4>마그네슘</h4>
+                <div class="image"></div>
+                <h5>1.7배</h5>
+                <ul>
+                  <li>나트륨 배출 및 혈압 안정</li>
+                  <li>심혈관 질환 예방</li>
+                  <li>간기능 강화</li>
+                </ul>
+              </article>
+              <article>
+                <h4>칼륨</h4>
+                <div class="image"></div>
+                <h5>1.2배</h5>
+                <ul>
+                  <li>고밀도 증진</li>
+                  <li>스트레스 및 우울감 완화</li>
+                </ul>
+              </article>
+              <article>
+                <h4>아연</h4>
+                <div class="image"></div>
+                <h5>1.3배</h5>
+                <ul>
+                  <li>체내 세포의 성장 및 기능 유지</li>
+                  <li>면역력 강화</li>
+                </ul>
+              </article>
+              <article>
+                <h4>비타민E</h4>
+                <div class="image"></div>
+                <h5>11.2배</h5>
+                <ul>
+                  <li>항산화, 피부 미용</li>
+                  <li>면역력 강화</li>
+                </ul>
+              </article>
+            </div>
+            <ul class="veget-info">
+              <li>
+                원물 수급 상황에 따라 타 농장서 재배된 채소를 혼입할 수
+                있습니다.
+              </li>
+              <li>원물 수급 상황에 따라 채소 구성이 변경될 수 있습니다.</li>
+              <li>
+                채소의 정량은 '중량'을 기준으로 설정되었기 때문에 채소 구성 및
+                부위별(잎, 줄기 등) 밀도 차이로 인해 부피감이 상이할 수
+                있습니다.
+                <br />특히 따듯한 곡물과 채소가 함께 제공되는 웜볼, 웜랩의 경우
+                온기로 인해 채소의 부피가 감소할 수 있는 점 참고 부탁드립니다.
+              </li>
+            </ul>
+          </section>
+        </div>
+      </div>
+      <!-- ########## Content_Menu ########## -->
+      <div class="content menuWrap" id="menuWrap">
+        <div class="menu">
+          <header>
+            <h3>Menu</h3>
+          </header>
+          <section>
+            <ul class="menu-list">
+              <li data-alt="menuList01">웜볼</li>
+              <li data-alt="menuList02" class="active">샐러디</li>
+              <li data-alt="menuList03">버거</li>
+              <li data-alt="menuList04">랩</li>
+              <li data-alt="menuList05">웜랩</li>
+              <li data-alt="menuList06">핫샌드위치</li>
+            </ul>
+            <div id="menuList01" class="mnGroup">
+              <div class="artGroup">
+                <article>
+                  <img src="img/warmball_menu01.png" alt="칠리베이컨 웜볼" />
+                  <div class="text">
+                    <h5>칠리베이컨 웜볼</h5>
+                    <p>매콤달콤한 감칠맛이 매력적인 샐러디 NO.1 베스트 메뉴</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>베이컨, 에그, 옥수수, 양파플레이크</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리 드레싱</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/warmball_menu02.png" alt="우삼겹 웜볼" />
+                  <div class="text">
+                    <h5>우삼겹 웜볼</h5>
+                    <p>
+                      풍미가득한 우삼겹과 고소한 견과류, 오리엔탈 드레싱 조합
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>우삼겹, 양파, 견과류</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>오리엔탈</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/warmball_menu03.png" alt="머쉬룸두부 웜볼" />
+                  <div class="text">
+                    <h5>머쉬룸두부 웜볼</h5>
+                    <p>버섯과 두부가 들어가 담백한 맛의 비건 샐러드</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>머쉬룸,두부,양파,옥수수</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>타바스코오리엔탈</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/warmball_menu04.png" alt="바베큐치킨 웜볼" />
+                  <div class="text">
+                    <h5>바베큐치킨 웜볼</h5>
+                    <p>
+                      담백한 닭다리살에 매콤달콤한 바베큐소스, 고소한 계란이
+                      어우러진 치밥 스타일의 메뉴
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>로스트닭다리살,에그,양파,옥수수,바베큐소스</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>타바스코오리엔탈</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/warmball_menu05.png" alt="할라피뇨치킨 웜볼" />
+                  <div class="text">
+                    <h5>할라피뇨치킨 웜볼</h5>
+                    <p>담백한 닭가슴살과 알싸한 할라피뇨가 만나 이국적인 맛</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>치킨, 할라피뇨, 칠리빈, 옥수수, 사워크림</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="img/warmball_menu06.png"
+                    alt="스팸라이트에그 웜볼"
+                  />
+                  <div class="text">
+                    <h5>스팸라이트에그 웜볼</h5>
+                    <p>
+                      스팸 라이트를 사용하여 나트륨을 줄였기 때문에 조금 더
+                      건강하게 즐길 수 있는 샐러디의 겨울 한정 메뉴
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        스팸25%라이트, 에그스크램블, 양파, 옥수수, 할라피뇨,
+                        당근라페
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div id="menuList02" class="mnGroup active">
+              <div class="artGroup">
+                <article>
+                  <img src="img/salad_menu01.png" alt="로스트닭다리살 샐러디" />
+                  <div class="text">
+                    <h5>로스트닭다리살 샐러디</h5>
+                    <p>
+                      닭다리살과 달콤한 단호박, 상큼한 토마토, 매콤한 할라피뇨가
+                      만난 다채로운 맛
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        닭다리살, 단호박, 토마토, 양파, 옥수수,
+                        할라피뇨,양파플레이크
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미할라피뇨</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/salad_menu02.png" alt="연어 샐러디" />
+                  <div class="text">
+                    <h5>연어 샐러디</h5>
+                    <p>신선한 연어와 달콤한 스윗포테이토의 달콤고소한 조합</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>연어, 스윗포테이토, 양파</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>레몬</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/salad_menu03.png" alt="우삼겹메밀면 샐러디" />
+                  <div class="text">
+                    <h5>우삼겹메밀면 샐러디</h5>
+                    <p>육즙가득 우삼겹과 탱글한 메밀면의 완벽 밸런스</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>우삼겹, 메밀면, 오이, 양파, 견과류</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>오리엔탈</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/salad_menu04.png" alt="단호박두부 샐러디" />
+                  <div class="text">
+                    <h5>단호박두부 샐러디</h5>
+                    <p>
+                      담백하고 고소한 두부와 달콤한 단호박, 아삭한 당근라페가
+                      어우러진 비건 샐러드
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>단호박,두부,당근라페,옥수수,올리브</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>발사믹</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/salad_menu05.png" alt="콥 샐러디" />
+                  <div class="text">
+                    <h5>콥 샐러디</h5>
+                    <p>
+                      옥수수, 베이컨, 올리브 등 다채로운 재료에 시저의
+                      고소함까지!
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>에그, 옥수수, 올리브, 양파, 베이컨</p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>시저</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div id="menuList03" class="mnGroup">
+              <div class="artGroup">
+                <article>
+                  <img src="img/burger_menu01.png" alt="치킨토마토 버거" />
+                  <div class="text">
+                    <h5>치킨토마토 버거</h5>
+                    <p>귀리번 속 담백한 닭가슴살과 상큼한 토마토의 밸런스</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        치킨,토마토,크랜베리,체다치즈,크림치즈 (*메인토핑 및
+                        서브토핑 추가 불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>시저</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/burger_menu02.png" alt="에그베이컨 버거" />
+                  <div class="text">
+                    <h5>에그베이컨 버거</h5>
+                    <p>귀리번 속 담백한 계란과 짭쪼름한 베이컨의 꿀조합</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        에그,베이컨,토마토,체다치즈,크림치즈 (*메인토핑 및
+                        서브토핑 추가 불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>허니머스타드</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/burger_menu03.png" alt="크리미연어 버거" />
+                  <div class="text">
+                    <h5>크리미연어 버거</h5>
+                    <p>
+                      귀리번 속 매콤알싸한 크리미할라피뇨 드레싱과 연어의 만남
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        연어,양파,토마토,크림치즈 (*메인토핑 및 서브토핑 추가
+                        불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미할라피뇨</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/burger_menu04.png" alt="바베큐치킨 버거" />
+                  <div class="text">
+                    <h5>바베큐치킨 버거</h5>
+                    <p>
+                      매콤닭콤 바베큐 닭다리살이 들어간 치킨버거 스타일의
+                      샌드위치
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        로스트닭다리살,토마토,양파,바베큐소스,크림치즈
+                        (*메인토핑 및 서브토핑 추가 불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>허니머스타드</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/burger_menu05.png" alt="스팸라이트에그 버거" />
+                  <div class="text">
+                    <h5>스팸라이트에그 버거</h5>
+                    <p>
+                      나트륨을 줄인 스팸라이트와 에그스크램블을 사용하여
+                      담백하면서도 달달한 맛을 느낄 수 있는 겨울 한정 메뉴
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물빵</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        스팸25%라이트, 에그스크램블, 양파, 토마토, 체다치즈
+                        (*메인토핑 및 서브토핑 추가 불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div id="menuList04" class="mnGroup">
+              <div class="artGroup">
+                <article>
+                  <img src="img/wrap_menu01.png" alt="바질치킨 랩" />
+                  <div class="text">
+                    <h5>바질치킨 랩</h5>
+                    <p>
+                      또띠아 안에 향긋한 바질페스토와 담백한 닭가슴살을 넣어
+                      만든 산뜻한 맛
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        치킨,바질페스토,크랜베리 (*메인토핑 추가 불가,
+                        서브토핑은 최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>시저</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/wrap_menu02.png" alt="멕시칸 랩" />
+                  <div class="text">
+                    <h5>멕시칸 랩</h5>
+                    <p>
+                      또띠아 속 바삭한 나쵸와 고소한 비프가 어우러진 샐러디
+                      스테디 메뉴
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        그라운드비프, 나쵸칩, 사워크림 (*메인토핑 추가 불가,
+                        서브토핑은 최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/wrap_menu03.png" alt="시저치킨 랩" />
+                  <div class="text">
+                    <h5>시저치킨 랩</h5>
+                    <p>
+                      또띠아 속 닭가슴살의 담백함과 크랜베리의 상큼함의 조화
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        치킨, 크랜베리 (*메인토핑 추가 불가, 서브토핑은 최대3개
+                        추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>시저</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/wrap_menu04.png" alt="크리미연어 랩" />
+                  <div class="text">
+                    <h5>크리미연어 랩</h5>
+                    <p>
+                      또띠아 속 알싸한 크리미할라피뇨 드레싱과 신선한 연어와의
+                      만남
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        연어, 양파, 토마토 (*메인토핑 추가 불가, 서브토핑은
+                        최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미할라피뇨</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/wrap_menu05.png" alt="로스트닭다리살 랩" />
+                  <div class="text">
+                    <h5>로스트닭다리살 랩</h5>
+                    <p>
+                      로스트 닭다리살이 들어간 치킨 케밥 스타일의 매콤담백 랩
+                      샌드위치
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        로스트닭다리살,양파,토마토,할라피뇨,사워크림 (*메인토핑
+                        추가 불가, 서브토핑은 최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미할라피뇨</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/wrap_menu06.png" alt="크랜베리그릭 랩" />
+                  <div class="text">
+                    <h5>크랜베리그릭 랩</h5>
+                    <p>
+                      신선한 토마토, 올리브, 견과류, 크랜베리와 함께 크림치즈의
+                      풍미가 가득한 랩 샌드위치
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        크림치즈,크랜베리,올리브,토마토,견과류 (*메인토핑 추가
+                        불가, 서브토핑은 최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>시저</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div id="menuList05" class="mnGroup">
+              <div class="artGroup">
+                <article>
+                  <img src="img/warmwrap_menu01.png" alt="칠리베이컨 웜랩" />
+                  <div class="text">
+                    <h5>칠리베이컨 웜랩</h5>
+                    <p>또띠아 속 매콤달콤한 칠리베이컨 웜볼</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        베이컨, 에그, 옥수수, 양파플레이크 (*메인토핑 추가 불가,
+                        서브토핑은 최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/warmwrap_menu02.png" alt="우삼겹 웜랩" />
+                  <div class="text">
+                    <h5>우삼겹 웜랩</h5>
+                    <p>
+                      또띠아 속 단짠단짠 우삼겹과 고소한 곡물밥으로 든든하게!
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        우삼겹, 양파, 견과류 (*메인토핑 추가 불가, 서브토핑은
+                        최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>오리엔탈</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/warmwrap_menu03.png" alt="바베큐치킨 웜랩" />
+                  <div class="text">
+                    <h5>바베큐치킨 웜랩</h5>
+                    <p>
+                      담백한 닭다리살에 매콤달콤한 바베큐소스가 곡물밥과 조화를
+                      이루는 매력적인 맛
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        로스트닭다리살,양파,옥수수,할라피뇨,바베큐소스
+                        (*메인토핑 추가 불가, 서브토핑은 최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>허니머스타드</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img src="img/warmwrap_menu04.png" alt="할라피뇨치킨 웜랩" />
+                  <div class="text">
+                    <h5>할라피뇨치킨 웜랩</h5>
+                    <p>또띠아 속 매콤알싸한 할라피뇨치킨 웜볼</p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>채소, 곡물</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        치킨, 할라피뇨, 칠리빈, 사워크림 (*메인토핑 추가 불가,
+                        서브토핑은 최대3개 추가 가능)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <div id="menuList06" class="mnGroup">
+              <div class="artGroup">
+                <article>
+                  <img
+                    src="img/sandwich_menu01.png"
+                    alt="비프앤치즈 핫샌드위치"
+                  />
+                  <div class="text">
+                    <h5>비프앤치즈 핫샌드위치</h5>
+                    <p>
+                      쫄깃한 포카치아 빵 안에 달달하고 짭짤한 우삼겹과 알싸한
+                      양파, 상큼한 토마토, 고소한 모짜렐라치즈, 매콤한
+                      크리미칠리까지 더한 따뜻한 샌드위치
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>포카치아</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        우삼겹, 양파, 토마토, 캬라멜양파, 슈레드치즈 (*메인토핑
+                        및 서브토핑 추가 불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미칠리</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="img/sandwich_menu02.png"
+                    alt="바질치킨 핫샌드위치"
+                  />
+                  <div class="text">
+                    <h5>바질치킨 핫샌드위치</h5>
+                    <p>
+                      쫄깃한 포카치아 빵 안에 향긋하고 고소한 바질페스토와
+                      담백한 치킨, 알싸한 양파와 상큼한 토마토, 고소한 모짜렐라
+                      치즈까지 더한 따뜻한 샌드위치
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>포카치아</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        닭가슴살, 바질페스토, 양파, 토마토, 캬라멜양파,
+                        슈레드치즈 (*메인토핑 및 서브토핑 추가 불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>크리미할라피뇨</p>
+                    </div>
+                  </div>
+                </article>
+                <article>
+                  <img
+                    src="img/sandwich_menu03.png"
+                    alt="트러플머쉬룸 핫샌드위치"
+                  />
+                  <div class="text">
+                    <h5>트러플머쉬룸 핫샌드위치</h5>
+                    <p>
+                      풍미 가득한 트러플마요와 머쉬룸, 베이컨이 만나 풍부한 맛을
+                      끌어내는 겨울 한 메뉴
+                    </p>
+                    <div class="info">
+                      <h6>베이스</h6>
+                      <p>포카치아</p>
+                    </div>
+                    <div class="info">
+                      <h6>토핑</h6>
+                      <p>
+                        머쉬룸, 베이컨, 양파, 토마토, 올리브, 할라피뇨,
+                        슈레드치즈 (*메인토핑 및 서브토핑 추가 불가)
+                      </p>
+                    </div>
+                    <div class="info">
+                      <h6>기본 드레싱</h6>
+                      <p>트러플마요</p>
+                    </div>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- ########## Content_Membership ########## -->
+      <div class="content msWrap" id="msWrap">
+        <div class="membership">
+          <header>
+            <h3>Membership</h3>
+          </header>
+          <section>
+            <div class="stamp">
+              <ul>
+                <li class="on"></li>
+                <li class="on"></li>
+                <li class="on"></li>
+                <li class="on"></li>
+                <li class="on"></li>
+                <li class="off"></li>
+                <li class="off"></li>
+                <li class="off"></li>
+                <li class="off"></li>
+                <li class="off"></li>
+                <li class="off"></li>
+                <li class="off"></li>
+              </ul>
+              <div class="heading">
+                <h4>Stamp</h4>
+                <p>
+                  메인메뉴 1개당 스탬프 1개를 적립할 수 있습니다.
+                  <br />스탬프 12개 적립 시 3,000원 할인 쿠폰 1장이 자동
+                  발급됩니다.
+                </p>
+              </div>
+            </div>
+            <div class="benefit">
+              <div class="heading">
+                <h4>등급 및 혜택</h4>
+              </div>
+              <div class="tab-benefit">
+                <ul class="btn-benefit">
+                  <li data-benefit="welcome" class="active">
+                    <h3>Welcome</h3>
+                    <h3>W</h3>
+                  </li>
+                  <li data-benefit="green">
+                    <h3>Green</h3>
+                    <h3>G</h3>
+                  </li>
+                  <li data-benefit="red">
+                    <h3>Red</h3>
+                    <h3>R</h3>
+                  </li>
+                  <li data-benefit="gold">
+                    <h3>Gold</h3>
+                    <h3>G</h3>
+                  </li>
+                  <li data-benefit="black">
+                    <h3>Black</h3>
+                    <h3>B</h3>
+                  </li>
+                </ul>
+                <div class="artGroup">
+                  <article class="active" id="welcome">
+                    <h4>Welcome</h4>
+                    <h5>웰컴</h5>
+                    <p><span>등급기준 : </span>스탬프 0개</p>
+                  </article>
+                  <article id="green">
+                    <h4>Green</h4>
+                    <h5>그린</h5>
+                    <p><span>등급기준 : </span>스탬프 10개</p>
+                    <p><span>등급혜택 : </span>생일 축하 쿠폰 1장(연1회)</p>
+                  </article>
+                  <article id="red">
+                    <h4>Red</h4>
+                    <h5>레드</h5>
+                    <p><span>등급기준 : </span>스탬프 50개</p>
+                    <p><span>등급혜택 : </span>생일 축하 쿠폰 1장(연1회)</p>
+                    <p><span></span>월간 서브 토핑 쿠폰 1장(매월 1회)</p>
+                  </article>
+                  <article id="gold">
+                    <h4>Gold</h4>
+                    <h5>골드</h5>
+                    <p><span>등급기준 : </span>스탬프 80개</p>
+                    <p><span>등급혜택 : </span>생일 축하 쿠폰 1장(연1회)</p>
+                    <p><span></span>월간 서브 토핑 쿠폰 1장(매월 1회)</p>
+                    <p><span></span>월간 드링크 쿠폰 1장(매월 1회)</p>
+                  </article>
+                  <article id="black">
+                    <h4>Black</h4>
+                    <h5>블랙</h5>
+                    <p><span>등급기준 : </span>스탬프 100개</p>
+                    <p><span>등급혜택 : </span>생일 축하 쿠폰 1장(연1회)</p>
+                    <p><span></span>월간 서브 토핑 쿠폰 1장(매월 1회)</p>
+                    <p><span></span>월간 드링크 쿠폰 1장(매월 1회)</p>
+                    <p><span></span>월간 2,000원 할인 쿠폰 1장(매월 1회)</p>
+                  </article>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+
+      <!-- ########## Content_FAQ ########## -->
+      <div class="content faqWrap" id="faqWrap">
+        <div class="faq">
+          <header>
+            <h3>FAQ</h3>
+          </header>
+          <section>
+            <div class="title">
+              샐러디 앱에서 결제 시 법인카드 사용이 가능한가요?
+            </div>
+            <div class="answ">
+              기프트카드(선불카드) 결제 시에는 기명 법인카드만 사용 가능합니다.
+              일반 결제 (신용/체크 카드) 시 기명 및 무기명 법인카드 사용이
+              가능하며, 카드사마다 결제 정책 및 방식이 다르기에 구체적인 사항은
+              카드사에 문의해주시기 바랍니다.
+            </div>
+            <div class="title active">
+              채소 양이 적어 보여요! 왜 그런건가요?
+            </div>
+            <div class="answ active">
+              메뉴에 들어가는 재료들의 정량은 '중량'을 기준으로
+              설정되었습니다.그러나 원물 수급 상황에 따라 채소 구성이 변경될 수
+              있고 또한 같은 채소 구성이라 하더라도 부위 별(잎, 줄기 등)밀도
+              차이로 인해 부피감이 상이할 수 있습니다.
+              <br />특히 따뜻한 곡물과 채소가 함께 제공되는 웜볼, 웜랩의 경우
+              온기로 인해 채소의 부피가 감소할 수 있는 점 참고 부탁드립니다.
+            </div>
+            <div class="title">
+              배달 플랫폼(배민, 요기요, 쿠팡이츠, 배달특급)을 통한 주문 시
+              봉투가 무상 제공되나요?
+            </div>
+            <div class="answ">
+              네 그렇습니다.
+              <br />현재 시스템 상 불가피하게 무상 제공 중이나, 배달
+              플랫폼(배민, 요기요, 쿠팡이츠, 배달특급) 포장 서비스의 경우 플랫폼
+              수수료, 봉투 가격을 감안하여 메뉴 가격이 매장보다 높게 책정되어
+              있는 점 참고 부탁드립니다. <br />또한 배달 플랫폼 포장 서비스 내
+              '유상 봉투 선택 기능'이 개발되는 즉시 유상 판매를 도입하고자 계획
+              중에 있으며, '배달특급'의 경우, 포장에 한해(배달 시에는 불가) 해당
+              기능이 적용되어 유상 판매 중에 있으니 주문 시 참고 부탁드립니다.
+            </div>
+            <div class="title">월간 드링크 쿠폰은 무엇인가요?</div>
+            <div class="answ">
+              월간 드링크 쿠폰은 기존 GOLD, BLACK 등급 회원분들께 매월 1회, 연
+              12회 제공되는 쿠폰입니다. (기존 스페셜 토핑 쿠폰은 삭제)
+              <br />* 모든 쿠폰은 6,200원 이상 메인 메뉴 구매 시 사용
+              가능합니다.
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- ########## footer ########## -->
+      <div class="ftrWrap">
+        <footer>
+          <div class="policy">
+            <a href="#none">개인정보처리방침</a>
+            |
+            <a href="#none">서비스이용약관</a>
+          </div>
+          <div class="comp">
+            <ul>
+              <li>회사명:(주)샐러디</li>
+              <li>사업자등록번호 : 681-86-00031</li>
+              <li>COPYRIGHT(C) 2022 ㈜샐러디. CO.LTD ALL RIGHT RESERVED.</li>
+            </ul>
+          </div>
+        </footer>
+      </div>
+      <!-- ########## mswrap ########## -->
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,75 @@
+/* CDN */
+@import url('https://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@font-face {
+  font-family: 'NPSfontBold';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2310@1.0/NPSfontBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SUITE-Regular';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Common.css */
+html {
+  scroll-behavior: smooth;
+}
+* {
+  box-sizing: border-box;
+  font-family: 'SUITE-Regular';
+}
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.content {
+  padding: 150px 0;
+}
+.content:nth-child(2n+1) {
+  background-color: #9FBB73;
+}
+.content > div {
+  width: 1300px;
+  margin: 0 auto;
+}
+.content header {
+  text-align: center;
+}
+.content header h3 {
+  position: relative;
+  font-size: 48px;
+  line-height: 70px;
+  color: #004225;
+  font-family: 'Agbalumo', sans-serif;
+}
+.content header h3:before {
+  position: absolute;
+  content: '';
+  line-height: 50px;
+  height: 4px;
+  width: 40px;
+  top: 150%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #F1EB90;
+}
+.content section {
+  margin-top: 100px;
+}

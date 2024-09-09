@@ -1,0 +1,246 @@
+@media (max-width: 768px) {
+  .heading {
+    width: 100%;
+    padding: 0 10px;
+    overflow: hidden;
+  }
+  .logo a img {
+    width: 70px;
+  }
+  .lnb {
+    position: absolute;
+    height: 100vh;
+    width: 300px;
+    top: 0;
+    right: -300px;
+    z-index: 10;
+    transition: 0.35s;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .lnb li {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .lnb.on {
+    right: 0;
+    background-color: #004225;
+  }
+  .lnb.on li a {
+    color: #fff;
+  }
+  .headerButton {
+    width: 40px;
+    height: 30px;
+    top: 35px;
+    right: 10px;
+    display: block;
+    position: fixed;
+    z-index: 1000;
+  }
+  .headerButton.on span {
+    background-color: #fff;
+  }
+  /* ########## Main ########## */
+  main {
+    width: 100%;
+    padding: 10px;
+  }
+  main h1 {
+    font-size: 36px;
+    margin: 0 auto;
+    letter-spacing: -2px;
+  }
+  /* Common */
+  .content > div {
+    width: 100%;
+    padding: 0 10px;
+  }
+  .content header h3 {
+    font-size: 28px;
+  }
+  /* ########## Content _ Vegetable ########## */
+  .veget .top .artGroup {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: space-around;
+  }
+  .veget .top .artGroup article {
+    width: calc(50% - 20px);
+    height: 160px;
+    padding: 10px 0;
+    float: none;
+    margin: 0;
+    border-radius: 10px;
+  }
+  .veget .top .artGroup article:nth-child(1) {
+    border-radius: 10px;
+  }
+  .veget .top .artGroup article:last-child {
+    border-radius: 10px;
+    padding-top: 20px;
+  }
+  .veget .top .artGroup article img {
+    width: 100px;
+    height: 90px;
+    object-fit: cover;
+    margin-top: 15px;
+  }
+  .veget .top article h4 {
+    margin: 0;
+    line-height: 25px;
+  }
+  .veget .bottom .artGroup {
+    padding: 50px 10px;
+  }
+  .veget .bottom article {
+    margin: 0px 10px;
+    margin-bottom: 50px;
+    width: calc(100% / 2 - 20px);
+  }
+  .veget .bottom article:last-child {
+    margin-bottom: 0;
+  }
+  /* ########## Content_menuWrap ########## */
+  .mnGroup .artGroup {
+    gap: 0px;
+    padding: 0 20px;
+    position: relative;
+  }
+  .mnGroup article {
+    width: calc(50% - 20px);
+    position: static;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  .mnGroup article .text {
+    top: 0;
+    left: 0;
+    transform: translate(0, 0);
+    border-radius: 15px;
+  }
+  .mnGroup article .text h5 {
+    font-size: 22px;
+  }
+  .mnGroup article .text > p {
+    margin: 0;
+    margin-top: 5px;
+  }
+  /* ########## Content_Membership ########## */
+  .stamp {
+    display: block;
+  }
+  .stamp ul {
+    width: 100%;
+    gap: 10px;
+  }
+  .stamp ul li {
+    width: 40px;
+    height: 40px;
+  }
+  .stamp .heading {
+    width: 100%;
+    text-align: center;
+    letter-spacing: -1px;
+    margin-top: 10px;
+  }
+  .stamp .heading h4 {
+    font-size: 20px;
+  }
+  .tab-benefit {
+    width: 100%;
+    display: block;
+  }
+  .btn-benefit {
+    width: 100%;
+    overflow: hidden;
+  }
+  .btn-benefit li {
+    width: 20%;
+    float: left;
+    padding: 10px;
+  }
+  .btn-benefit li:last-child {
+    border-radius: 0 20px 0 0;
+  }
+  .btn-benefit li h3:first-child {
+    display: none;
+  }
+  .btn-benefit li h3:last-child {
+    display: block;
+  }
+  .tab-benefit .artGroup {
+    width: 100%;
+  }
+  .tab-benefit .artGroup article {
+    padding: 20px;
+    border-radius: 0 0 20px 20px;
+    border: none;
+    border-top: 3px solid transparent;
+    overflow: hidden;
+  }
+  .tab-benefit .artGroup article h4 {
+    right: 10px;
+  }
+  /* ########## Content_FAQ ########## */
+  .faq section {
+    position: static;
+  }
+  .faq section .title {
+    width: 100%;
+  }
+  .faq section .title.active {
+    width: 100%;
+  }
+  .faq section .answ {
+    position: static;
+    width: 100%;
+    height: 0;
+    border: 1px solid #000;
+    transition: 0.35s;
+    padding: 0;
+  }
+  .faq section .answ.active {
+    height: auto;
+    padding: 40px 20px;
+    margin-bottom: 25px;
+  }
+  /* ########## Footer ########## */
+  .comp {
+    margin-top: 10px;
+  }
+  .comp li {
+    margin: 5px;
+  }
+  /* .hdrWrap {
+    display: none;
+  }
+  .mnWrap {
+    display: none;
+  }
+  main {
+    display: none;
+  }
+  .headerButton {
+    display: none;
+  }
+  .content.vegetWrap {
+    display: none;
+  }
+  .content.menuWrap {
+    display: none;
+  }
+  .content.msWrap {
+    display: none;
+  }
+  .content.faqWrap {
+    display: none;
+  } */
+}
